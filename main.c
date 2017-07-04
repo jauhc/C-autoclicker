@@ -4,7 +4,7 @@
 #define HITKEY VK_XBUTTON2
 #define ENDKEY VK_SHIFT
 
-void clickFunction(INPUT* input)
+void __fastcall clickFunction(INPUT* input)
 {
 	if (!GetAsyncKeyState(ENDKEY) && GetAsyncKeyState(HITKEY))
 	{
